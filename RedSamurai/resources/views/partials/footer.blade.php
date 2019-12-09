@@ -1,7 +1,7 @@
 <div id="footer-wrap">
     <footer>
         <a href="#header-top">
-            <img src="images/to-top.png" alt="home-pin" class="wow fadeIn">
+            <img src="{{ asset('images/to-top.png') }}" alt="home-pin" class="wow fadeIn">
         </a>
         <article>
             <p>The <span>Red</span> Samurai <span class="copy">- All rights reserved 2014</span></p>

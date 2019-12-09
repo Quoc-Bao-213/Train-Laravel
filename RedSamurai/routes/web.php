@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('layout');
-});
+Route::get('/', 'SanPhamController@index')->name('trang-chu');
+Route::get('/{id}', 'SanPhamController@show')->name('ds-san-pham');
+
+// Route::prefix('/')->group(function (){
+//     Route::name('index.')->group(function (){
+//         Route::get('/', 'SanPhamController@show')->name('trang-chu');
+//     });
+// });

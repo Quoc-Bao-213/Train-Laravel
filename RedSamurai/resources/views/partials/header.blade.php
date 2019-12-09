@@ -22,7 +22,7 @@
         <nav id="main-nav">
             <a href="index.html">
                 <figure>
-                    <img src="images/logo-banner.png" alt="logo">
+                    <img src="{{ asset('images/logo-banner.png') }}" alt="logo">
                     <figcaption>Red Samurai</figcaption>
                 </figure>
             </a>
@@ -55,9 +55,9 @@
                         <li><p>Your Item(s):<span>8</span></p></li>
                         <li><p>Total:<span>$353,50</span></p></li>
                         <li><a href="checkout.html" class="button red">Proceed to Checkout</a>
-                        <img src="images/menu-logo.png" alt="logo">
+                        <img src="{{ asset('images/menu-logo.png') }}" alt="logo">
                         <p class="greet">Thanks for your Purchase!</p>
-                        <img src="images/menu-serrated-border.png" alt="serrated-border" >
+                        <img src="{{ asset('images/menu-serrated-border.png') }}" alt="serrated-border" >
                         </li>
                     </ul>
                 </li>
@@ -73,7 +73,7 @@
         <section id="header-bottom">
             <h1 class="wow fadeInLeft">The Best <span class="remarked">Asian Cuisine</span><span class="right">In All The City</span></h1>
             <a href="#" class="order wow bounceInDown" data-wow-delay=".5s">Start Your Online Order!</a>
-            <img src="images/asian-girl.png" alt="asian-girl" class="wow fadeInRight">
+            <img src="{{ asset('images/asian-girl.png') }}" alt="asian-girl" class="wow fadeInRight">
             <!--MAIN-SLIDER-->
             <div id="main-slider-wrap">
                 <ul id="main-slider">
@@ -81,7 +81,7 @@
                     <li>
                         <div class="circle small">
                             <figure class="imgLiquidFill">
-                                <img src="images/menu-03.jpg" alt="dish">
+                                <img src="{{ asset('images/menu-03.jpg') }}" alt="dish">
                             </figure>
                             <div class="shadow"></div>
                             <div class="fill"></div>
@@ -102,7 +102,7 @@
                     <li>
                         <div class="circle small">
                             <figure class="imgLiquidFill">
-                                <img src="images/menu-02.jpg" alt="dish">
+                                <img src="{{ asset('images/menu-02.jpg') }}" alt="dish">
                             </figure>
                             <div class="shadow"></div>
                             <div class="fill"></div>
@@ -123,7 +123,7 @@
                     <li>
                         <div class="circle small">
                             <figure class="imgLiquidFill">
-                                <img src="images/menu-01.jpg" alt="dish">
+                                <img src="{{ asset('images/menu-01.jpg') }}" alt="dish">
                             </figure>
                             <div class="shadow"></div>
                             <div class="fill"></div>
